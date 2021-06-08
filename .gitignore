@@ -1,1 +1,6 @@
+# package directories
 server/node_modules
+server/jspm_packages
+
+# Serverless directories
+server/.serverless
