@@ -134,7 +134,7 @@ app.get("/api/leerPersona/:id", (req, res) => {
 });
 
 
-//Habilitando puerto
-app.listen(3001, () => {
-    console.log("Running on port 3001");
-})
+//Habilitando puerto (Para pruebas sin serverless)
+//app.listen(3001, () => {
+//    console.log("Running on port 3001");
+//})
